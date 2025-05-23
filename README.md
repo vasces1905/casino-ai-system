@@ -1,3 +1,5 @@
+# Yavuzhan Canli - 1905bash
+
 
 # AI Casino Optimization System
 
@@ -60,3 +62,8 @@ Then open your browser to: [http://localhost:8000/docs](http://localhost:8000/do
 ####### License
 
 MIT License - see LICENSE file for details.
+
+###### 21 may 2025
+## Version History and Progress
+## Current Version: `v0.3.0`
+
