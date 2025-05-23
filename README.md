@@ -67,3 +67,15 @@ MIT License - see LICENSE file for details.
 ## Version History and Progress
 ## Current Version: `v0.3.0`
 
+---
+
+## v0.3.1 – Feature Engineering & Data Merging
+
+This version includes:
+- `build_customer_features()` created in `app/preprocessing.py`
+- Reads slot, tito, CRM, and heatmap data
+- Outputs a customer-level dataset for training AI models
+- `/features` endpoint generates the dataset live
+- `/debug` endpoint confirms session-level data integrity
+
+Next: `train_kmeans_model()` → customer segmentation

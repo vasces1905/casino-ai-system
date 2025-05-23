@@ -5,14 +5,18 @@ import xml.etree.ElementTree as ET
 
 app = FastAPI()
 
+# Shows if API is active
 @app.get("/")
 def read_root():
     return {"message": "Casino AI Optimization API is running."}
 
+# Dummy endpoint (expands in the future)
 @app.get("/customers")
 def read_customers():
     return {"message": "Customer endpoint is active!"}
 
+
+# Combines all data and prepares model input
 @app.get("/features")
 def generate_features():
     try:
@@ -40,7 +44,7 @@ def generate_features():
     except Exception as e:
         return {"error": str(e)}
 
-
+### Verifies Slot & TITO matches
 @app.get("/debug")
 def debug_merge():
     try:
