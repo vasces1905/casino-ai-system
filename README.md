@@ -1,4 +1,4 @@
-# Yavuzhan Canli - 1905bash
+# Yavuzhan Canli
 
 
 # AI Casino Optimization System
