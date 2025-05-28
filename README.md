@@ -152,7 +152,11 @@ Run `python -m app.models.train_model` to reproduce the clustering results.
 Random Forest development will continue in `models/train_random_forest.py` as of version v2.0.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### test terra_gok 2
 =======
 ### test terra_gok 3
 >>>>>>> 8ef8130 (Save changes before rebase)
+=======
+### test terra_gok 1
+>>>>>>> c940799890ee1637c478febb8fd1af00d4649cd2
