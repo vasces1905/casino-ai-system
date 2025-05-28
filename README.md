@@ -151,4 +151,8 @@ Predict customer responsiveness to promotions using supervised learning.
 Run `python -m app.models.train_model` to reproduce the clustering results.
 Random Forest development will continue in `models/train_random_forest.py` as of version v2.0.
 
+<<<<<<< HEAD
 ### test terra_gok 2
+=======
+### test terra_gok 3
+>>>>>>> 8ef8130 (Save changes before rebase)
