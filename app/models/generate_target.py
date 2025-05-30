@@ -25,4 +25,4 @@ df["promo_response"] = df.apply(assign_promo_response, axis=1)
 # Save updated dataset
 df.to_csv("labeled_customer_dataset.csv", index=False)
 
-print("✅ 'promo_response' column added to labeled_customer_dataset.csv")
+print("promo_response' column added to labeled_customer_dataset.csv")
