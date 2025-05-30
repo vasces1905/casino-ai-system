@@ -1,54 +1,64 @@
 import pandas as pd
+import joblib
 from sklearn.cluster import KMeans
-from sklearn.preprocessing import StandardScaler # To normalize the values (if we don't scale, some features will dominate)
+from sklearn.preprocessing import StandardScaler
 
-def train_kmeans_model(features_df: pd.DataFrame, n_clusters: int = 5):
+def train_kmeans_model(features_df: pd.DataFrame, n_clusters: int = 3):
     """
-    Trains a KMeans model on selected features and returns the model and labeled dataframe.
+    Trains a KMeans model on customer behavioral features.
 
     Parameters:
-    - features_df: DataFrame with customer features
-    - n_clusters: number of customer segments (default=5)
+    - features_df: DataFrame containing customer metrics
+    - n_clusters: number of desired customer segments (default = 3)
 
     Returns:
     - kmeans: trained KMeans model
-    - features_df: dataframe with added 'segment_label' column
+    - features_df: DataFrame with 'segment_label' column added
     """
-    # Select numerical features only
+    # Select numerical behavioral features
     X = features_df[[
         "avg_loss", "avg_bet", "avg_rtp", "jackpot_total", 
         "avg_session_duration", "zone_diversity", "avg_usage_level"
     ]].copy()
 
-    # Normalize values for clustering
-    # When AVG_loss is around 300, zone_diversity can only be between 0–5
-    # This difference causes the model to attach much importance to some features.
-    # Standardscaler: converts each column to mean = 0, std = 1
-    
+    # Normalize values (important for fair clustering)
     scaler = StandardScaler()
     X_scaled = scaler.fit_transform(X)
 
-    # Train model
-    # n_clusters=5: 5 customer groups will be created
-    # random_state=42: Fixed randomness to repeat the same results
-    # n_init=10: Try 10 different starting points and get the best result (recommended for stability)
-    
-    # kmeans = KMeans(n_clusters=n_clusters, random_state=42, n_init=10) old
-    kmeans = KMeans(n_clusters=3, random_state=42, n_init=10)
-
+    # Train the KMeans model
+    kmeans = KMeans(n_clusters=n_clusters, random_state=42, n_init=10)
     kmeans.fit(X_scaled)
 
-    # Add cluster labels to DataFrame
-    # Calculates which cluster each customer belongs to
-    # Adds the results to the data frame as the segment_label column (e.g.: 0, 1, 2, 3, 4)
-    
+    # Assign segment labels to the original DataFrame
     features_df["segment_label"] = kmeans.predict(X_scaled)
-
-   # Trained model (kmeans)
-   # Labeled customer data (features_df + segment_label)
-   
 
     return kmeans, features_df
 
-   
+def run_training_pipeline(
+    input_csv_path="../data/labeled_customer_dataset.csv",
+    output_model_path="models/kmeans_model.pkl"
+):
+    """
+    Loads data, trains KMeans, saves results and model to disk.
 
+    Parameters:
+    - input_csv_path: path to feature CSV
+    - output_model_path: path to save trained model
+    """
+    print("Loading data for KMeans training...")
+    df = pd.read_csv(input_csv_path)
+
+    print("Training KMeans model...")
+    model, labeled_df = train_kmeans_model(df)
+
+    print(f"Saving model to: {output_model_path}")
+    joblib.dump(model, output_model_path)
+
+    print(f"Saving labeled dataset to: {input_csv_path}")
+    labeled_df.to_csv(input_csv_path, index=False)
+
+    print("KMeans training complete.")
+
+# Optional CLI entrypoint
+if __name__ == "__main__":
+    run_training_pipeline()
