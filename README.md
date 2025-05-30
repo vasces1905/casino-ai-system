@@ -111,6 +111,15 @@ This project builds a full pipeline for casino player segmentation and promotion
 | Random Forest Prep  | ⏳          | Synthetic target to be generated and RF model training to begin             |
 
 ---
+#### 29/05/2025
+## Version: v1.1 - Modular KMeans Training Function 
+### Update Summary:
+- `train_kmeans.py` refactored into a modular, callable structure
+- Now compatible with FastAPI endpoints, automation scripts, and Jupyter pipelines
+- External modules (like Streamlit, API, or cron jobs) can call:
+  ```python
+  from train_kmeans import train_kmeans_model, run_training_pipeline
+  run_training_pipeline()
 
 ## Upcoming: Version v2.0 - Random Forest Module
 
@@ -151,8 +160,8 @@ Predict customer responsiveness to promotions using supervised learning.
 Run `python -m app.models.train_model` to reproduce the clustering results.
 Random Forest development will continue in `models/train_random_forest.py` as of version v2.0.
 
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
->>>>>>> 00d6c1a4371664e6bac75174906051f72a2ab927
+
