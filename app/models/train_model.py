@@ -1,6 +1,6 @@
 import pandas as pd
-from app.preprocessing import build_customer_features
-from app.models.train_kmeans import train_kmeans_model
+from preprocessing import build_customer_features
+from models.train_kmeans import train_kmeans_model
 
 # Step 1 – Build Features set
 features_df = build_customer_features(

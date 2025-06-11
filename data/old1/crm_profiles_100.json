@@ -1,0 +1,802 @@
+[
+    {
+        "customer_id": "CUST_1000",
+        "age": 57,
+        "gender": "M",
+        "nationality": "Bulgaria",
+        "registration_date": "2022-12-02",
+        "communication_preference": "app"
+    },
+    {
+        "customer_id": "CUST_1001",
+        "age": 40,
+        "gender": "M",
+        "nationality": "Azerbaijan",
+        "registration_date": "2022-05-17",
+        "communication_preference": "sms"
+    },
+    {
+        "customer_id": "CUST_1002",
+        "age": 42,
+        "gender": "F",
+        "nationality": "Netherlands",
+        "registration_date": "2023-09-03",
+        "communication_preference": "sms"
+    },
+    {
+        "customer_id": "CUST_1003",
+        "age": 42,
+        "gender": "M",
+        "nationality": "Greece",
+        "registration_date": "2022-09-06",
+        "communication_preference": "email"
+    },
+    {
+        "customer_id": "CUST_1004",
+        "age": 55,
+        "gender": "F",
+        "nationality": "Kosovo",
+        "registration_date": "2023-04-06",
+        "communication_preference": "sms"
+    },
+    {
+        "customer_id": "CUST_1005",
+        "age": 40,
+        "gender": "F",
+        "nationality": "Netherlands",
+        "registration_date": "2024-01-15",
+        "communication_preference": "app"
+    },
+    {
+        "customer_id": "CUST_1006",
+        "age": 64,
+        "gender": "M",
+        "nationality": "Netherlands",
+        "registration_date": "2024-01-22",
+        "communication_preference": "none"
+    },
+    {
+        "customer_id": "CUST_1007",
+        "age": 62,
+        "gender": "F",
+        "nationality": "Greece",
+        "registration_date": "2023-09-08",
+        "communication_preference": "sms"
+    },
+    {
+        "customer_id": "CUST_1008",
+        "age": 65,
+        "gender": "F",
+        "nationality": "Kosovo",
+        "registration_date": "2024-06-04",
+        "communication_preference": "email"
+    },
+    {
+        "customer_id": "CUST_1009",
+        "age": 45,
+        "gender": "M",
+        "nationality": "Azerbaijan",
+        "registration_date": "2022-12-01",
+        "communication_preference": "sms"
+    },
+    {
+        "customer_id": "CUST_1010",
+        "age": 32,
+        "gender": "F",
+        "nationality": "Germany",
+        "registration_date": "2023-05-09",
+        "communication_preference": "sms"
+    },
+    {
+        "customer_id": "CUST_1011",
+        "age": 51,
+        "gender": "F",
+        "nationality": "Greece",
+        "registration_date": "2022-09-01",
+        "communication_preference": "email"
+    },
+    {
+        "customer_id": "CUST_1012",
+        "age": 26,
+        "gender": "M",
+        "nationality": "Greece",
+        "registration_date": "2023-05-12",
+        "communication_preference": "app"
+    },
+    {
+        "customer_id": "CUST_1013",
+        "age": 57,
+        "gender": "M",
+        "nationality": "Turkey",
+        "registration_date": "2024-02-28",
+        "communication_preference": "app"
+    },
+    {
+        "customer_id": "CUST_1014",
+        "age": 24,
+        "gender": "M",
+        "nationality": "Bulgaria",
+        "registration_date": "2024-06-15",
+        "communication_preference": "sms"
+    },
+    {
+        "customer_id": "CUST_1015",
+        "age": 49,
+        "gender": "F",
+        "nationality": "Germany",
+        "registration_date": "2023-03-15",
+        "communication_preference": "email"
+    },
+    {
+        "customer_id": "CUST_1016",
+        "age": 28,
+        "gender": "M",
+        "nationality": "Azerbaijan",
+        "registration_date": "2022-12-26",
+        "communication_preference": "none"
+    },
+    {
+        "customer_id": "CUST_1017",
+        "age": 32,
+        "gender": "F",
+        "nationality": "Kosovo",
+        "registration_date": "2022-06-08",
+        "communication_preference": "email"
+    },
+    {
+        "customer_id": "CUST_1018",
+        "age": 26,
+        "gender": "M",
+        "nationality": "Germany",
+        "registration_date": "2023-03-18",
+        "communication_preference": "email"
+    },
+    {
+        "customer_id": "CUST_1019",
+        "age": 48,
+        "gender": "F",
+        "nationality": "Germany",
+        "registration_date": "2023-08-28",
+        "communication_preference": "none"
+    },
+    {
+        "customer_id": "CUST_1020",
+        "age": 28,
+        "gender": "F",
+        "nationality": "Germany",
+        "registration_date": "2022-10-31",
+        "communication_preference": "app"
+    },
+    {
+        "customer_id": "CUST_1021",
+        "age": 39,
+        "gender": "F",
+        "nationality": "Azerbaijan",
+        "registration_date": "2022-06-19",
+        "communication_preference": "email"
+    },
+    {
+        "customer_id": "CUST_1022",
+        "age": 51,
+        "gender": "F",
+        "nationality": "Kosovo",
+        "registration_date": "2023-06-09",
+        "communication_preference": "app"
+    },
+    {
+        "customer_id": "CUST_1023",
+        "age": 29,
+        "gender": "M",
+        "nationality": "Greece",
+        "registration_date": "2022-03-03",
+        "communication_preference": "none"
+    },
+    {
+        "customer_id": "CUST_1024",
+        "age": 28,
+        "gender": "F",
+        "nationality": "Netherlands",
+        "registration_date": "2024-01-06",
+        "communication_preference": "app"
+    },
+    {
+        "customer_id": "CUST_1025",
+        "age": 56,
+        "gender": "F",
+        "nationality": "Azerbaijan",
+        "registration_date": "2023-01-18",
+        "communication_preference": "none"
+    },
+    {
+        "customer_id": "CUST_1026",
+        "age": 42,
+        "gender": "F",
+        "nationality": "Azerbaijan",
+        "registration_date": "2024-04-27",
+        "communication_preference": "none"
+    },
+    {
+        "customer_id": "CUST_1027",
+        "age": 31,
+        "gender": "F",
+        "nationality": "Netherlands",
+        "registration_date": "2022-12-24",
+        "communication_preference": "sms"
+    },
+    {
+        "customer_id": "CUST_1028",
+        "age": 46,
+        "gender": "M",
+        "nationality": "Greece",
+        "registration_date": "2022-03-17",
+        "communication_preference": "email"
+    },
+    {
+        "customer_id": "CUST_1029",
+        "age": 70,
+        "gender": "F",
+        "nationality": "Turkey",
+        "registration_date": "2022-09-28",
+        "communication_preference": "none"
+    },
+    {
+        "customer_id": "CUST_1030",
+        "age": 29,
+        "gender": "M",
+        "nationality": "Bulgaria",
+        "registration_date": "2023-01-25",
+        "communication_preference": "app"
+    },
+    {
+        "customer_id": "CUST_1031",
+        "age": 28,
+        "gender": "M",
+        "nationality": "Bulgaria",
+        "registration_date": "2022-07-13",
+        "communication_preference": "app"
+    },
+    {
+        "customer_id": "CUST_1032",
+        "age": 40,
+        "gender": "F",
+        "nationality": "Netherlands",
+        "registration_date": "2023-03-05",
+        "communication_preference": "none"
+    },
+    {
+        "customer_id": "CUST_1033",
+        "age": 45,
+        "gender": "M",
+        "nationality": "Turkey",
+        "registration_date": "2024-06-14",
+        "communication_preference": "app"
+    },
+    {
+        "customer_id": "CUST_1034",
+        "age": 52,
+        "gender": "F",
+        "nationality": "Germany",
+        "registration_date": "2024-02-16",
+        "communication_preference": "email"
+    },
+    {
+        "customer_id": "CUST_1035",
+        "age": 27,
+        "gender": "F",
+        "nationality": "Bulgaria",
+        "registration_date": "2024-06-14",
+        "communication_preference": "sms"
+    },
+    {
+        "customer_id": "CUST_1036",
+        "age": 40,
+        "gender": "M",
+        "nationality": "Turkey",
+        "registration_date": "2023-03-03",
+        "communication_preference": "email"
+    },
+    {
+        "customer_id": "CUST_1037",
+        "age": 27,
+        "gender": "F",
+        "nationality": "Bulgaria",
+        "registration_date": "2023-01-26",
+        "communication_preference": "none"
+    },
+    {
+        "customer_id": "CUST_1038",
+        "age": 41,
+        "gender": "M",
+        "nationality": "Netherlands",
+        "registration_date": "2024-02-24",
+        "communication_preference": "none"
+    },
+    {
+        "customer_id": "CUST_1039",
+        "age": 58,
+        "gender": "F",
+        "nationality": "Turkey",
+        "registration_date": "2024-04-05",
+        "communication_preference": "sms"
+    },
+    {
+        "customer_id": "CUST_1040",
+        "age": 43,
+        "gender": "M",
+        "nationality": "Turkey",
+        "registration_date": "2022-02-27",
+        "communication_preference": "app"
+    },
+    {
+        "customer_id": "CUST_1041",
+        "age": 62,
+        "gender": "M",
+        "nationality": "Greece",
+        "registration_date": "2022-09-24",
+        "communication_preference": "app"
+    },
+    {
+        "customer_id": "CUST_1042",
+        "age": 56,
+        "gender": "F",
+        "nationality": "Greece",
+        "registration_date": "2024-04-16",
+        "communication_preference": "sms"
+    },
+    {
+        "customer_id": "CUST_1043",
+        "age": 48,
+        "gender": "F",
+        "nationality": "Netherlands",
+        "registration_date": "2024-02-19",
+        "communication_preference": "sms"
+    },
+    {
+        "customer_id": "CUST_1044",
+        "age": 47,
+        "gender": "F",
+        "nationality": "Turkey",
+        "registration_date": "2023-09-25",
+        "communication_preference": "email"
+    },
+    {
+        "customer_id": "CUST_1045",
+        "age": 56,
+        "gender": "M",
+        "nationality": "Netherlands",
+        "registration_date": "2023-03-07",
+        "communication_preference": "app"
+    },
+    {
+        "customer_id": "CUST_1046",
+        "age": 38,
+        "gender": "F",
+        "nationality": "Bulgaria",
+        "registration_date": "2023-01-01",
+        "communication_preference": "app"
+    },
+    {
+        "customer_id": "CUST_1047",
+        "age": 49,
+        "gender": "F",
+        "nationality": "Greece",
+        "registration_date": "2022-05-18",
+        "communication_preference": "email"
+    },
+    {
+        "customer_id": "CUST_1048",
+        "age": 68,
+        "gender": "F",
+        "nationality": "Azerbaijan",
+        "registration_date": "2023-08-02",
+        "communication_preference": "app"
+    },
+    {
+        "customer_id": "CUST_1049",
+        "age": 35,
+        "gender": "M",
+        "nationality": "Netherlands",
+        "registration_date": "2022-08-28",
+        "communication_preference": "sms"
+    },
+    {
+        "customer_id": "CUST_1050",
+        "age": 36,
+        "gender": "F",
+        "nationality": "Greece",
+        "registration_date": "2023-12-06",
+        "communication_preference": "none"
+    },
+    {
+        "customer_id": "CUST_1051",
+        "age": 45,
+        "gender": "F",
+        "nationality": "Germany",
+        "registration_date": "2022-11-04",
+        "communication_preference": "sms"
+    },
+    {
+        "customer_id": "CUST_1052",
+        "age": 43,
+        "gender": "F",
+        "nationality": "Bulgaria",
+        "registration_date": "2023-03-23",
+        "communication_preference": "sms"
+    },
+    {
+        "customer_id": "CUST_1053",
+        "age": 49,
+        "gender": "F",
+        "nationality": "Germany",
+        "registration_date": "2022-05-31",
+        "communication_preference": "none"
+    },
+    {
+        "customer_id": "CUST_1054",
+        "age": 57,
+        "gender": "M",
+        "nationality": "Kosovo",
+        "registration_date": "2023-12-28",
+        "communication_preference": "email"
+    },
+    {
+        "customer_id": "CUST_1055",
+        "age": 47,
+        "gender": "M",
+        "nationality": "Turkey",
+        "registration_date": "2022-07-20",
+        "communication_preference": "email"
+    },
+    {
+        "customer_id": "CUST_1056",
+        "age": 31,
+        "gender": "M",
+        "nationality": "Netherlands",
+        "registration_date": "2022-09-16",
+        "communication_preference": "none"
+    },
+    {
+        "customer_id": "CUST_1057",
+        "age": 42,
+        "gender": "F",
+        "nationality": "Greece",
+        "registration_date": "2022-02-25",
+        "communication_preference": "app"
+    },
+    {
+        "customer_id": "CUST_1058",
+        "age": 31,
+        "gender": "F",
+        "nationality": "Kosovo",
+        "registration_date": "2023-05-25",
+        "communication_preference": "sms"
+    },
+    {
+        "customer_id": "CUST_1059",
+        "age": 34,
+        "gender": "F",
+        "nationality": "Germany",
+        "registration_date": "2022-02-04",
+        "communication_preference": "app"
+    },
+    {
+        "customer_id": "CUST_1060",
+        "age": 33,
+        "gender": "M",
+        "nationality": "Azerbaijan",
+        "registration_date": "2023-10-20",
+        "communication_preference": "none"
+    },
+    {
+        "customer_id": "CUST_1061",
+        "age": 27,
+        "gender": "F",
+        "nationality": "Netherlands",
+        "registration_date": "2022-03-12",
+        "communication_preference": "email"
+    },
+    {
+        "customer_id": "CUST_1062",
+        "age": 49,
+        "gender": "M",
+        "nationality": "Bulgaria",
+        "registration_date": "2023-01-30",
+        "communication_preference": "none"
+    },
+    {
+        "customer_id": "CUST_1063",
+        "age": 25,
+        "gender": "F",
+        "nationality": "Kosovo",
+        "registration_date": "2022-08-12",
+        "communication_preference": "none"
+    },
+    {
+        "customer_id": "CUST_1064",
+        "age": 66,
+        "gender": "F",
+        "nationality": "Bulgaria",
+        "registration_date": "2022-04-11",
+        "communication_preference": "none"
+    },
+    {
+        "customer_id": "CUST_1065",
+        "age": 58,
+        "gender": "F",
+        "nationality": "Germany",
+        "registration_date": "2024-05-20",
+        "communication_preference": "none"
+    },
+    {
+        "customer_id": "CUST_1066",
+        "age": 53,
+        "gender": "F",
+        "nationality": "Turkey",
+        "registration_date": "2023-03-17",
+        "communication_preference": "none"
+    },
+    {
+        "customer_id": "CUST_1067",
+        "age": 28,
+        "gender": "F",
+        "nationality": "Greece",
+        "registration_date": "2023-09-11",
+        "communication_preference": "sms"
+    },
+    {
+        "customer_id": "CUST_1068",
+        "age": 38,
+        "gender": "M",
+        "nationality": "Turkey",
+        "registration_date": "2022-02-17",
+        "communication_preference": "app"
+    },
+    {
+        "customer_id": "CUST_1069",
+        "age": 55,
+        "gender": "F",
+        "nationality": "Turkey",
+        "registration_date": "2022-07-22",
+        "communication_preference": "none"
+    },
+    {
+        "customer_id": "CUST_1070",
+        "age": 54,
+        "gender": "M",
+        "nationality": "Bulgaria",
+        "registration_date": "2023-02-16",
+        "communication_preference": "email"
+    },
+    {
+        "customer_id": "CUST_1071",
+        "age": 61,
+        "gender": "M",
+        "nationality": "Kosovo",
+        "registration_date": "2022-03-03",
+        "communication_preference": "email"
+    },
+    {
+        "customer_id": "CUST_1072",
+        "age": 64,
+        "gender": "F",
+        "nationality": "Turkey",
+        "registration_date": "2023-02-27",
+        "communication_preference": "sms"
+    },
+    {
+        "customer_id": "CUST_1073",
+        "age": 27,
+        "gender": "M",
+        "nationality": "Turkey",
+        "registration_date": "2023-06-29",
+        "communication_preference": "app"
+    },
+    {
+        "customer_id": "CUST_1074",
+        "age": 23,
+        "gender": "M",
+        "nationality": "Azerbaijan",
+        "registration_date": "2024-02-16",
+        "communication_preference": "email"
+    },
+    {
+        "customer_id": "CUST_1075",
+        "age": 34,
+        "gender": "M",
+        "nationality": "Netherlands",
+        "registration_date": "2023-09-05",
+        "communication_preference": "none"
+    },
+    {
+        "customer_id": "CUST_1076",
+        "age": 57,
+        "gender": "F",
+        "nationality": "Greece",
+        "registration_date": "2023-10-24",
+        "communication_preference": "email"
+    },
+    {
+        "customer_id": "CUST_1077",
+        "age": 61,
+        "gender": "F",
+        "nationality": "Kosovo",
+        "registration_date": "2022-10-08",
+        "communication_preference": "sms"
+    },
+    {
+        "customer_id": "CUST_1078",
+        "age": 41,
+        "gender": "F",
+        "nationality": "Azerbaijan",
+        "registration_date": "2022-02-17",
+        "communication_preference": "email"
+    },
+    {
+        "customer_id": "CUST_1079",
+        "age": 44,
+        "gender": "M",
+        "nationality": "Bulgaria",
+        "registration_date": "2022-07-30",
+        "communication_preference": "sms"
+    },
+    {
+        "customer_id": "CUST_1080",
+        "age": 47,
+        "gender": "M",
+        "nationality": "Netherlands",
+        "registration_date": "2023-07-14",
+        "communication_preference": "app"
+    },
+    {
+        "customer_id": "CUST_1081",
+        "age": 28,
+        "gender": "F",
+        "nationality": "Kosovo",
+        "registration_date": "2024-02-19",
+        "communication_preference": "none"
+    },
+    {
+        "customer_id": "CUST_1082",
+        "age": 50,
+        "gender": "F",
+        "nationality": "Turkey",
+        "registration_date": "2023-07-09",
+        "communication_preference": "sms"
+    },
+    {
+        "customer_id": "CUST_1083",
+        "age": 29,
+        "gender": "M",
+        "nationality": "Netherlands",
+        "registration_date": "2023-11-16",
+        "communication_preference": "app"
+    },
+    {
+        "customer_id": "CUST_1084",
+        "age": 58,
+        "gender": "F",
+        "nationality": "Azerbaijan",
+        "registration_date": "2023-12-09",
+        "communication_preference": "sms"
+    },
+    {
+        "customer_id": "CUST_1085",
+        "age": 32,
+        "gender": "M",
+        "nationality": "Netherlands",
+        "registration_date": "2023-12-27",
+        "communication_preference": "none"
+    },
+    {
+        "customer_id": "CUST_1086",
+        "age": 55,
+        "gender": "M",
+        "nationality": "Germany",
+        "registration_date": "2024-04-07",
+        "communication_preference": "sms"
+    },
+    {
+        "customer_id": "CUST_1087",
+        "age": 48,
+        "gender": "M",
+        "nationality": "Greece",
+        "registration_date": "2022-01-20",
+        "communication_preference": "app"
+    },
+    {
+        "customer_id": "CUST_1088",
+        "age": 64,
+        "gender": "F",
+        "nationality": "Netherlands",
+        "registration_date": "2023-02-13",
+        "communication_preference": "sms"
+    },
+    {
+        "customer_id": "CUST_1089",
+        "age": 50,
+        "gender": "M",
+        "nationality": "Kosovo",
+        "registration_date": "2024-04-03",
+        "communication_preference": "app"
+    },
+    {
+        "customer_id": "CUST_1090",
+        "age": 59,
+        "gender": "F",
+        "nationality": "Kosovo",
+        "registration_date": "2024-03-05",
+        "communication_preference": "sms"
+    },
+    {
+        "customer_id": "CUST_1091",
+        "age": 25,
+        "gender": "M",
+        "nationality": "Greece",
+        "registration_date": "2023-11-04",
+        "communication_preference": "none"
+    },
+    {
+        "customer_id": "CUST_1092",
+        "age": 42,
+        "gender": "M",
+        "nationality": "Germany",
+        "registration_date": "2023-06-27",
+        "communication_preference": "app"
+    },
+    {
+        "customer_id": "CUST_1093",
+        "age": 60,
+        "gender": "F",
+        "nationality": "Netherlands",
+        "registration_date": "2023-11-11",
+        "communication_preference": "email"
+    },
+    {
+        "customer_id": "CUST_1094",
+        "age": 22,
+        "gender": "M",
+        "nationality": "Germany",
+        "registration_date": "2022-05-04",
+        "communication_preference": "app"
+    },
+    {
+        "customer_id": "CUST_1095",
+        "age": 50,
+        "gender": "F",
+        "nationality": "Germany",
+        "registration_date": "2023-09-13",
+        "communication_preference": "email"
+    },
+    {
+        "customer_id": "CUST_1096",
+        "age": 37,
+        "gender": "M",
+        "nationality": "Kosovo",
+        "registration_date": "2023-07-13",
+        "communication_preference": "sms"
+    },
+    {
+        "customer_id": "CUST_1097",
+        "age": 25,
+        "gender": "M",
+        "nationality": "Turkey",
+        "registration_date": "2022-05-26",
+        "communication_preference": "app"
+    },
+    {
+        "customer_id": "CUST_1098",
+        "age": 65,
+        "gender": "M",
+        "nationality": "Netherlands",
+        "registration_date": "2023-09-19",
+        "communication_preference": "app"
+    },
+    {
+        "customer_id": "CUST_1099",
+        "age": 33,
+        "gender": "M",
+        "nationality": "Greece",
+        "registration_date": "2023-01-29",
+        "communication_preference": "sms"
+    }
+]

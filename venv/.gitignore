@@ -1,5 +1,6 @@
-# Created by venv; see https://docs.python.org/3/library/venv.html__pycache__/
 *.pyc
-*.log
-*.db
-.env
+*.pkl
+__pycache__/
+*.zip
+data/*_2000.*
+app/__pycache__/

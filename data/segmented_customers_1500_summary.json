@@ -1,0 +1,43 @@
+{
+  "total_customers": 1400,
+  "n_segments": 3,
+  "segment_mapping": {
+    "2": "Casual Gambler",
+    "1": "Regular Player",
+    "0": "High Roller"
+  },
+  "segment_distribution": {
+    "High Roller": 860,
+    "Regular Player": 480,
+    "Casual Gambler": 60
+  },
+  "segment_profiles": {
+    "High Roller": {
+      "count": 860,
+      "avg_bet": 50.996228333504355,
+      "avg_loss": 129.01226265501293,
+      "avg_session_duration": 17.04768247579294,
+      "zone_diversity": 4.579069767441861,
+      "ticket_in": 8649.799976744187,
+      "promo_strategy": "Premium, VIP Oriented Campaigns **** "
+    },
+    "Regular Player": {
+      "count": 480,
+      "avg_bet": 48.3194034113456,
+      "avg_loss": 118.12204730414261,
+      "avg_session_duration": 17.213044808201058,
+      "zone_diversity": 3.19375,
+      "ticket_in": 3743.3388541666664,
+      "promo_strategy": "Loyalty programs, bonus offers *** "
+    },
+    "Casual Gambler": {
+      "count": 60,
+      "avg_bet": 51.950673191963354,
+      "avg_loss": 111.86857196956944,
+      "avg_session_duration": 17.39106794712706,
+      "zone_diversity": 5.033333333333333,
+      "ticket_in": 20039.132500000003,
+      "promo_strategy": "Price oriented, simple promotions ** "
+    }
+  }
+}

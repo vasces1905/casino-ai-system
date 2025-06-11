@@ -1,0 +1,31 @@
+{
+  "total_campaigns": 5611,
+  "unique_customers": 1400,
+  "overall_response_rate": 0.4352165389413652,
+  "segment_response_rates": {
+    "Casual Gambler": 0.5770750988142292,
+    "High Roller": 0.4616947185142194,
+    "Regular Player": 0.36872384937238495
+  },
+  "promo_type_response_rates": {
+    "Bonus_Match": 0.4913644214162349,
+    "Cashback": 0.3086206896551724,
+    "Dining_Comp": 0.3538175046554935,
+    "Free_Play": 0.41746724890829695,
+    "VIP_Event": 0.611731843575419
+  },
+  "features_for_modeling": [
+    "avg_bet",
+    "avg_loss",
+    "avg_session_duration",
+    "zone_diversity",
+    "ticket_in",
+    "ticket_out",
+    "jackpot_total",
+    "game_type_diversity",
+    "avg_usage_level",
+    "is_weekend_campaign",
+    "month",
+    "is_holiday_season"
+  ]
+}

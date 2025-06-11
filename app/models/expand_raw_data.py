@@ -1,3 +1,5 @@
+### With “expand_raw_data.py” I expanded from 100 customers → 1500 and 2000 customers
+
 import pandas as pd
 import numpy as np
 import json
